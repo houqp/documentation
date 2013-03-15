@@ -47,8 +47,8 @@ First Page
 Now that the basic files are created, the following things are needed to create a page:
 
 * **A route**: The URL which links to the controller
-* **A controller**: Gets the request and returns a response
 * **An entry in the DIContainer**: This makes the controller available for the application
+* **A controller**: Gets the request and returns a response
 * **A template**: HTML which should be displayed on the page
 
 First the route which is linked in the :file:`appinfo/app.php` needs to be created. To do that create the :doc:`routes` file:
